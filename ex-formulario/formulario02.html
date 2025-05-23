@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+
+    <!-- required = para pedir senha antes de enviar algo no formulario  
+     minlength="5"  no texto pode solicitar no minimo de letras
+     
+     maxlength="15" usado para solicitar o maximo de letras nescessarias
+     
+    o size mostra a quantidade de letras no campo de texto
+    autocomplete="username" = para sugerir o usuario
+
+     em numeros so existe a quantidade minima
+     autocomplete="off" para tirar as sugestoes da tela
+
+      autocomplete="current-password"= para sugerir a senha salva ideal para painel de login
+    -->
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="usuario">usuario</label>
+            <input type="text" name="usuario" id="usuario" required minlength="5" size="8" placeholder="nome do usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="senha">senha</label>
+            <input type="password" name="senha" id="senha" required minlength="3" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" name="Enviar" id="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
