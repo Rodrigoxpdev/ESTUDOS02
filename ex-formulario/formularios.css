@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* -------------------------- */
+/* https://i.pinimg.com/736x/7c/9a/f3/7c9af36b5c536d7e9f0625e44b6469c0.jpg */
+
+/* CORPO DA PAGINA */
+body{
+    background-image: url(https://i.pinimg.com/736x/36/cd/8c/36cd8c44325881b6a6950e4cc675471d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* legendas  */
+legend {
+    color: blanchedalmond;
+}
+
+
+/* borda do agrupameto */
+form fieldset{
+    text-align: left;
+    display: block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+/* label do formulario */
+form label{
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.445);   
+}
+
+form input{
+    padding: 4px;
+    border-radius: 10px 1px;
+    text-decoration: none;
+    /* background-color: transparent; */
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.404);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

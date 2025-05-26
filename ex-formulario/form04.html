@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <link rel="stylesheet" href="formularios.css">
 </head>
 <body>
+
+    <!-- primeiro o form > depois o fieldset > legend -->
     <form action="cadastro.php" method="post" autocomplete="on">
 
         <!-- fieldset , agrupamento de campos e colocando borda -->
@@ -31,27 +34,41 @@
                 <input type="reset" value="Limpar">
             </p>
         </fieldset>
-
     </form>
 
-    <fieldset>
-        <legend>Dados empresariais</legend>
-        <form action="cadastro.php">
+
+    <br>
+
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+
+            <fieldset>
+                 <legend>TESTE DE FORMULARIO</legend>
             <p>
                 <label for="inome">Nome:</label>
-                <input type="text" name="nome" id="inome" required >
+                <input type="text" name="nome" id="inome" required placeholder="Primeiro Nome">
             </p>
             <p>
                 <label for="sobrenome">Sobrenome:</label>
-                <input type="text" name="sobrenome" id="isobrenome" required >
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
             </p>
             <p>
-                <label for="gmail">Gmail</label>
-                <input type="email" name="gmail" id="igmail" required>
+                <label for="gmail">Gmail:</label>
+                <input type="email" name="gmail" id="igmail" required autocomplete="email" placeholder="@gmail.com">
+            </p>
+            <p>
+                <label for="numero">Numero:</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="(xx) xxxxx-xxxx"
+                pattern="^\(\d{2}\) \d{4,5}-\d{4}$"  required>
+                <!-- formato exigido a baixo (xx) xxxxx xxxx -->
             </p>
 
-
+            <p>
+                <input type="submit" value="Enviar" id="enviar">
+                <input type="reset" value="Limpar" id="limpar">
+            </p>
+            </fieldset>
         </form>
-    </fieldset>
+    
 </body>
 </html>
