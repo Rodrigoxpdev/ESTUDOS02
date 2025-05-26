@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <!-- type="radio" com o mesmo nome name="sexo" = name="sexo", permite alternar entre uma opçao selecionada e a outra fazendo que mude a posiçao dos campo selecionado.
+         
+        usamos o checkd para deixar um texto ja marcado-->
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem" >Femenino</label>
+        </fieldset>
+
+
+        
+        <fieldset><!-- SEGUNDA PARTE DO FORMULARIO -->
+
+            <!-- LEGENDA -->
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut" > <label for="iesfut" che>Futebol</label> <br>
+
+            <input type="checkbox"name="esbas" id="iesbas"> <label for="iesbas">basquete</label> <br>
+
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">natação</label> <br>
+
+            <!-- LABEL É USADO PARA LIGAR O INPUT E A CAIXA DE TEXTO ASSIM QUANDO TOCAR NO TEXTO A CAIXA FICARA SELECIONADA MESMO SEM TOCAR NELA  -->
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">tênis</label> <br>
+        </fieldset><!-- FECHAMENTO DO FIELDSET -->
+
+        <p><!-- PARAGRAFO -->
+            <!-- BOTOES DE ENVIAR E LIMPAR -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p><!-- FECHAMENTO DO PARAGRAFO -->
+    </form> <!-- FECHAMENTO DO FORMULARIO -->
+
+
+
+</body>
+</html>
