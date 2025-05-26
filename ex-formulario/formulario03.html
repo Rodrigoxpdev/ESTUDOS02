@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        </p>
+
+        <!-- usamos o step para avançar os numos  
+         max="10" min="0", usamos o para o padrao numerico -->
+        <p>
+            <label for="imedia">media:</label>
+            <input type="number" name="imedia" id="imedia" required max="10" min="0" placeholder="De 0 a 10" step="0.1">
+        </p>
+
+        <!-- mes -->
+        <p>
+            <label for="imes">periodo letivo</label>
+            <input type="month" name="imes" id="imes" value="2025-01">
+        </p>
+
+        <!-- dia  -->
+        <p>
+            <label for="idia">Dia da prova</label>
+            <input type="date" name="idia" id="idia" value="2025-05-25"> 
+        </p>
+
+        <!-- Hora -->
+        <p>
+            <label for="ihora">Hora da prova</label>
+            <input type="time" name="ihora" id="ihora" value="2025-05-25"> 
+        </p>
+
+        <!-- botoes -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
