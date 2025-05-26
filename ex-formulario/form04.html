@@ -10,7 +10,7 @@
 
         <!-- fieldset , agrupamento de campos e colocando borda -->
         <fieldset>
-            
+
             <!-- legend = colocando legenda na borda agrupada  -->
             <legend>Dados Pessoais</legend>
             <p>
@@ -33,5 +33,25 @@
         </fieldset>
 
     </form>
+
+    <fieldset>
+        <legend>Dados empresariais</legend>
+        <form action="cadastro.php">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required >
+            </p>
+            <p>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="isobrenome" required >
+            </p>
+            <p>
+                <label for="gmail">Gmail</label>
+                <input type="email" name="gmail" id="igmail" required>
+            </p>
+
+
+        </form>
+    </fieldset>
 </body>
 </html>
