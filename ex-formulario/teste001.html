@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+</head>
+<body>
+    <!--ORGAMIZANDO O CODIGO TITULO PRINCIPAL-->
+    <h1>Formulario tipo texto</h1>
+
+    <!-- LABEL APARECE O TEXTO NA FRENTE DA CAIXA 
+     INPUT TIPO TEXTO COM NOME, ID, E LIST="" PARA PEGAR OS VALORES DA LISTA DESEJADA PEGANDO INFORMAÇÕES PELO ID  -->
+    <label for="ivalores">Valores</label>
+    <input type="text" name="valores" id="ivalores" list="lsvalores">
+
+
+    <!--LISTA DE OPÇÕES, USANDO DATALIST-->
+    <datalist id="lsvalores">
+        <option value="30 Dias">30,00</option>
+        <option value="60 Dias">60,00</option>
+        <option value="120 Dias">120,00</option>
+    </datalist>
+
+</body>
+</html>
