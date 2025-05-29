@@ -1,0 +1,78 @@
+INPUT É COMO SE FOSSE UMA CAIXA DE ONDE PODE SER UM TEXTO NUMER0 SENHA EMAIL ETC..
+TUDO ISSO PODE SER PREENCHIDO COM IMFORMAÇÕES PESSOAIS MUITO UTILIZADO EM FORMULARIOS
+
+
+-----------------------------METHOD---------------------------------------------------
+method="" , TEM DUAS MANEIRAS DE SER UTILIZADO: 'GET E POST' POREM A MAIS USADA E A POST
+POR NAO CONPARTILHAR AS INFORMAÇÕES NO LINK DO NAVEGADOR E COM ISSO PODER ENVIAR ARQUIVOS COM MAIS SEGURANÇA OBS: NAO QUER DIZER QUE SEJA SEGURO ESTUDAR OUTROS MEIOS DE PROTEÇÃO.
+
+
+
+-----------------------------AUTOCOMPLETE-----------------------------------------------
+ autocomplete="on"  , USADO PARA COMPLETAR AUTOMATICAMENTE UM TEXTO JA DIGITADO.
+
+
+
+ -----------------------------OUTPUT-----------------------------------------------------
+<output> </output>
+É UMA  TAG DE FORMULARIO POREM ESSA TAG NAO ENVIA NADA É USADO PARA MOSTRAR COISAS DIRETAS NA TELA 
+
+ -----------------------------------------------------------------------------
+
+
+
+
+
+
+ -----------------------------------------------------------------------------
+
+
+
+
+
+
+ -----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

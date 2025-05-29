@@ -7,7 +7,11 @@
 
 </head>
 <body>
+
+    <!-- TITULO DO FORMULARIO  -->
     <h1>Exemplo de formulario</h1>
+
+    <!-- FORMULARIO -->
     <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="in1">Numero 1:</label>
@@ -17,15 +21,22 @@
             <label for="in2">Numero 2:</label>
             <input type="number" name="in2" id="in2" min="0" max="50" required oninput="isoma.innerHTML=Number(in1.value)+ Number(in2.value)"> 
         </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+            
+
         
-
-
-
         <!--BOTÕES DE RESET E ENVIAR -->
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
     </form>
+
+
+
+
 </body>
 </html>
