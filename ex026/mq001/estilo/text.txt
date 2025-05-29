@@ -1,5 +1,10 @@
 line-height: 1.2em ;  usado para dar espaçamento entre linhas
 
+media="screen"  , modo de tela 
+media="print"   , modo para impressora
+
+
+
 
 
 
