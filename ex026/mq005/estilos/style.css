@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*------------------ CFG GERAL------------------------ */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: lightgrey ;
+}
+/* ---------------------------------------------------- */
+
+
+/* --------------------CABRÇALHO----------------------- */
+header {
+    background-color: rgb(184, 184, 184);
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+/* ---------------------------------------------------- */
+
+/* ------------------------MENU------------------------ */
+
+#burguer{
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(71, 71, 71);
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none ;
+}
+
+menu  a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(102, 102, 102);
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+}   
+
+menu > ul >li > a:hover{
+    background-color: gray;
+}
+/* ---------------------------------------------------- */
+
+
+/* -----------------CONTEUDO PRINCIPAL----------------- */
+main {
+    width: 90vw;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+article > h2{
+    padding-bottom: 20px; /*CRIA ESPAÇO ENTRE EM BAIXO*/
+}
+
+article > P{
+    text-align: justify;/*ESPAÇ0 ENTRE LETRAS MELHORA A LEITURA*/
+    margin-bottom: 20px;/*ESPAÇO EM BAIXO DE CADA PARAGRAFO*/
+    text-indent: 20px; /*ESPAÇO NA PRIMEIRA LINHA DO TEXTO LD ESQUERDO*/
+}
+
+
+
