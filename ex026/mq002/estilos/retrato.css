@@ -2,7 +2,9 @@
 /* APRELHO EM PÉ (portrait) */
 
 
-
+body { 
+    background-image: url(../imagens/cev-portrait.jpg);
+}
 
 
 
