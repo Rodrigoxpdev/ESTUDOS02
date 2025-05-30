@@ -21,10 +21,9 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-/* ---------------------------------------------------- */
 
-/* ------------------------MENU------------------------ */
 
+/* ---------------MENU HANBURGUER---------------------- */
 #burguer{
     color: white;
     display: block;
@@ -37,7 +36,11 @@ header > h1{
 #burguer:hover{
     background-color: white;
     color: black;
+    
 }
+
+
+/* ------------------------MENU------------------------ */
 
 menu {
     display: none;
