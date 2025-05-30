@@ -17,10 +17,14 @@ body, html {
 header {
     background-color: rgb(184, 184, 184);
 }
+
 header > h1{
     padding: 10px;
     text-align: center;
 }
+
+
+
 
 
 /* ---------------MENU HANBURGUER---------------------- */
@@ -38,6 +42,12 @@ header > h1{
     color: black;
     
 }
+/* ---------------------------------------------------- */
+
+
+
+
+
 
 
 /* ------------------------MENU------------------------ */
@@ -66,6 +76,10 @@ menu > ul >li > a:hover{
 /* ---------------------------------------------------- */
 
 
+
+
+
+
 /* -----------------CONTEUDO PRINCIPAL----------------- */
 main {
     width: 90vw;
@@ -84,6 +98,12 @@ article > P{
     margin-bottom: 20px;/*ESPAÇO EM BAIXO DE CADA PARAGRAFO*/
     text-indent: 20px; /*ESPAÇO NA PRIMEIRA LINHA DO TEXTO LD ESQUERDO*/
 }
+
+/* ----------------------------------------------------- */
+
+
+
+
 
 
 
