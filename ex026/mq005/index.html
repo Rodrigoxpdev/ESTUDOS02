@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <!-- ------------------------------------------------------- -->
     <header><!-- CABEÇALHO -->
         <h1>Meu site</h1>
@@ -40,12 +41,29 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis distinctio ea provident consequuntur itaque consequatur quod, temporibus beatae aliquid maxime harum dolores aspernatur delectus quibusdam corrupti eveniet repellendus excepturi?</p>
         </article>
+
+        
+        <div id="card001">
+            <aside id="teste">
+                <h2>Teste de media query </h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia, iste quos adipisci, omnis fuga magni dolor, suscipit neque cupiditate saepe voluptates molestias quod nesciunt nulla! Et ipsa soluta rem!</p>
+            </aside>
+        </div>
+
     </main>
     <!-- ---------------------------------------------------------- -->
 
 
     <!------------------------MENU HANBURGUINHO----------------------->
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            }else{
+                menu.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
             if (menu.style.display =='block'){
                 menu.style.display = 'none'

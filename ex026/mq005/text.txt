@@ -1,0 +1,42 @@
+line-height: 1.2em ;  usado para dar espaçamento entre linhas
+
+media="screen"  , modo de tela 
+media="print"   , modo para impressora
+
+----------------------------------------------------------------
+text-align: justify; /*ESPAÇ0 ENTRE LETRAS MELHORA A LEITURA*/
+margin-bottom: 20px; /*ESPAÇO EM BAIXO DE CADA PARAGRAFO*/
+text-indent: 20px;  /*ESPAÇO NA PRIMEIRA LINHA DO TEXTO LD   ESQUERDO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

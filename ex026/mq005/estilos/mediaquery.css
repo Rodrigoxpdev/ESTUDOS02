@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* TODAS AS DEMAIS MIDIAS 
+
+TIPYCAL DEVICE BREAKPOINTS
+--------------------------
+PEQUENAS TELAS ATE 600PX
+CELULAR: 600PX ATE 768PX
+TABLET: 768PX ATE 992PX
+DESKTOP: 992PX ATE 1200PX 
+GRANDES TELAS: ACIMA DE 1200OPX 
+---------------------------------*/ 
+
+/* SE DIMINUIR A TELA ATÉ 768 MANTEM A PROPORÇAO CASO CONTRARIO ELE MUDA PARA O FORMATO DE
+TELAS MENORES  */
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+    
+    menu {
+        display: block;
+    }
+    
+    menu li {
+        display: inline-block;
+    }
+    
+    main {
+        width: 768px;
+    }
+}
+
+
+
+
+/* ---------------------------FAZENDO TESTES DE MEDIA QUERY--------------------------- */
+
+/* TELA PEQUENA E TELA DE CELULARES */
+@media screen and (max-width: 768px) {
+    #teste p {
+        color: red;
+        padding-top: 20px;
+    }
+    
+    #teste h2{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 20px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.548);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
