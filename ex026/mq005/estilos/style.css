@@ -98,6 +98,168 @@ article > P{
     margin-bottom: 20px;/*ESPAÇO EM BAIXO DE CADA PARAGRAFO*/
     text-indent: 20px; /*ESPAÇO NA PRIMEIRA LINHA DO TEXTO LD ESQUERDO*/
 }
-
 /* ----------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------CONTEINER------------------- */
+.conteiner1{
+    display: flex;
+    width:90%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+
+
+/* ----------------CONTEUDO DO CONTEINER----------------- */
+.conteudo1 {
+    display: block;
+    /* background-color: rgba(207, 36, 36, 0.182); */
+    border-radius: 2px 50px ;
+    
+}
+/* ------------------------TITULO------------------------ */
+.conteudo1 h2 {
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+    margin-bottom: 10px ;
+}
+/* -----------------------PARAGRAFO----------------------- */
+.conteudo1  p{
+    display: inline-block;
+    font-weight: bold;
+    text-indent: 1.3em;
+    text-align: justify;
+    margin-bottom:20px ;
+    padding: 20PX;
+    line-height: 1.5em; /*ESPAÇO DE LINHAS DO PARAGRAFO DE BAIXO*/
+    border-radius: 2px 50px ;
+    background-color: rgba(128, 128, 128, 0.182);
+}
+/* --------------------------------------------------------- */
+
+
+
+
+
+
+/* ---------------------------CANAIS------------------------ */
+.cardcanais{
+    display: flex;
+    width:90%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+/* ------------------------TITULO------------------------ */
+.ccanais h2 {
+    text-align: center;
+    color: rgb(226, 43, 156);
+    text-transform: uppercase;
+    margin-bottom: 10px ;
+}
+/* -----------------------PARAGRAFO----------------------- */
+.ccanais  p{
+    display: inline-block;
+    font-weight: bold;
+    text-indent: 1.3em;
+    text-align: justify;
+    margin-bottom:20px ;
+    padding: 20PX;
+    line-height: 1.5em; /*ESPAÇO DE LINHAS DO PARAGRAFO DE BAIXO*/
+    border-radius: 2px 50px ;
+    background-color: rgba(108, 108, 108, 0.182);
+}
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+/* --------------------------FILMES-------------------------- */
+.cardfilmes{
+    display: flex;
+    width:90%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+/* ------------------------TITULO------------------------ */
+.cfilmes h2 {
+    text-align: center;
+    color: rgb(46, 43, 226);
+    text-transform: uppercase;
+    margin-bottom: 10px ;
+}
+/* -----------------------PARAGRAFO----------------------- */
+.cfilmes  p{
+    display: inline-block;
+    font-weight: bold;
+    text-indent: 1.3em;
+    text-align: justify;
+    margin-bottom:20px ;
+    padding: 20PX;
+    line-height: 1.5em; /*ESPAÇO DE LINHAS DO PARAGRAFO DE BAIXO*/
+    border-radius: 2px 50px ;
+    background-color: rgba(108, 108, 108, 0.182);
+}
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+/* --------------------------SERIES-------------------------- */
+.cardseries{
+    display: flex;
+    width:90%;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+/* ------------------------TITULO------------------------ */
+.cseries h2 {
+    text-align: center;
+    color: rgb(226, 43, 43);
+    text-transform: uppercase;
+    margin-bottom: 10px ;
+}
+/* -----------------------PARAGRAFO----------------------- */
+.cseries  p{
+    display: inline-block;
+    font-weight: bold;
+    text-indent: 1.3em;
+    text-align: justify;
+    margin-bottom:20px ;
+    padding: 20PX;
+    line-height: 1.5em; /*ESPAÇO DE LINHAS DO PARAGRAFO DE BAIXO*/
+    border-radius: 2px 50px ;
+    background-color: rgba(108, 108, 108, 0.182);
+}
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
