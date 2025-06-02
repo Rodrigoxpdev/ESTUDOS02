@@ -1,28 +1,25 @@
 @charset "UTF-8";
 
-/* CFG GERAL */
-
-
-
-
-
-
 
 /* CONTEINER CAIXA PAI */
 div.conteiner{
     background-color: aqua;
     display: flex;
+    flex-flow: row wrap; /*A MISTURA DE FLEX-DIRECTION + FLEX-WRAP*/
+    justify-content: space-around; /*TIPOS DE ESPAÇAMENTO*/
+    height: 300px; /*ALTURA*/
+    align-items: center; /*ALINHAMENTO DOS ITEMS*/
 }
 
+
+/* CAIXA FILHO ITEMS */
 div.item{
     background-color: rgb(136, 136, 136);
     border: 1px solid rgb(0, 0, 0);
-    flex: auto;
     text-align:center;
-    width: 100px;
-    height: 100px;
+    padding: 20px;
+    margin: 2px 10px;
 }
-
 
 
 

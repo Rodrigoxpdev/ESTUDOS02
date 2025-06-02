@@ -1,0 +1,59 @@
+-------------------------------JUSTIFY-CONTENT--------------------------------------------
+JUSTIFY-CONTENT FLEX-START 
+MAIN-START = ALINHA O ITEM NA ESQUEDA DO EIXO PRINCIPAL
+NAIN-END   = ALINHA O ITEM NA DIREITA DO EIXO PRINCIPAL
+
+
+JUSTIFY-CONTENT FLEX-END
+MAIN-START = ALINHA O ITEM NA ESQUEDA DO EIXO PRINCIPAL
+NAIN-END   = ALINHA O ITEM NA DIREITA DO EIXO PRINCIPAL
+
+
+JUSTIFY-CONTENT: CENTER
+ALINHA OS ITEMS NO CENTRO DO EIXO PRINCIPAL
+
+
+
+-------------------------------------JUSTIFY-CONTENT-------------------------------------
+justify-content: space-around;
+= COLOCA OS ITEMS DENTRO DO ELEMENTO COM ESPAÇOS IGUAIS
+
+
+justify-content: space-between;
+= ALINHA O "PRIMEIRO ITEM NA ESQUEDA" E O "ULTIMO ITEM NA DIREITA" 
+
+
+justify-content: space-evenly;
+= ESPAÇOS IGUAIS ANTES DO PRIMEIRO ELEMENTO E ESPAÇOS NO FINAL DO ULTIMO ELEMENTO
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+
+---------------------------------------ALIN-ITEMS:---------------------------------------
+ALINHAMENTO DOS ITEMS COM ALIGN-ITEMS EIXO TRANSVERSAL
+
+ALIGN-ITEMS: STRETCH --> VALOR PADRAO 
+STRETCH = ESTICAR NO SENTIDO DO CROSS AXIS
+
+ALIGN-ITEMS: FLEX-START
+COLA NO COMEÇO
+
+
+ALIGN-ITEMS: FLEX-END
+COLA NO FINAL
+
+
+ALIGN-ITEMS: CENTER
+COLA NO CENTRO
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+
+
+
+
+
