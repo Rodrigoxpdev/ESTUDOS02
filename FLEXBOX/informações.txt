@@ -1,0 +1,75 @@
+---------------------FLEXBOX---------------------
+O CONTEINER É O PAI = flex-conteiner
+O PAI E QUEM LEVA O DISPLAY FLEX E NÃO OS FILHOS
+OS ITEMS É OS FILHOS = flex-items 
+-------------------------------------------------
+
+
+
+
+
+
+------------------FLEX-DIRECTION ROW-------------
+.MAIN-AXIS DA ESQUERDA PARA DIREITA EM LINHA DEITADO 
+O CROSS-AXIS DE CIMA PARA BAIXO NO LADO ESQUERDO
+
+
+--------------FLEX-DIRECTION ROW-REVERSE--------------
+MAIN-AXIS = DA DIREITA PARA ESQUERDA
+CROSS-AXIS = DE CIMA PAR BAIXO DO LADO DIREITO
+
+
+
+
+
+
+
+-----------------FLEX-DIRECTION COLUM-----------------
+MAIN-AXIS = DE CIMA PARA BAIXO
+CROSS-AXIS = DA ESQUERDA PARA DIREITA NA PARTE DE CIMA
+
+
+
+----------------FLEX-DIRECTION COLUM-REVERSE----------------
+MAIN-AXIS = DE BAIXO PARA CIMA
+CROSS-AXIS = DA ESQUERDA PARA DIREITA PARTE DE BAIXO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
