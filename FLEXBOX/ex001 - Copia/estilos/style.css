@@ -1,12 +1,17 @@
 @charset "UTF-8";
 
+/* CFG GERAL */
 
 
-/* -----------CONTEINER CAIXA PAI----------- */
+
+
+
+
+
+/* CONTEINER CAIXA PAI */
 div.conteiner{
     background-color: aqua;
     display: flex;
-    flex-direction: row-reverse;
 }
 
 div.item{
@@ -14,7 +19,8 @@ div.item{
     border: 1px solid rgb(0, 0, 0);
     flex: auto;
     text-align:center;
-    padding: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 

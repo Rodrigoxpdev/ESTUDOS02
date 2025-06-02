@@ -1,59 +1,70 @@
----------------------FLEXBOX---------------------
+---------------------FLEXBOX---------------------------------------------
 O CONTEINER É O PAI = flex-conteiner
 O PAI E QUEM LEVA O DISPLAY FLEX E NÃO OS FILHOS
 OS ITEMS É OS FILHOS = flex-items 
--------------------------------------------------
+-------------------------------------------------------------------------
 
 
 
 
 
 
-------------------FLEX-DIRECTION ROW-------------
+------------------FLEX-DIRECTION ROW-------------------------------------
 .MAIN-AXIS DA ESQUERDA PARA DIREITA EM LINHA DEITADO 
 O CROSS-AXIS DE CIMA PARA BAIXO NO LADO ESQUERDO
 
+-------------------------------------------------------------------------
 
---------------FLEX-DIRECTION ROW-REVERSE--------------
+
+--------------FLEX-DIRECTION ROW-REVERSE---------------------------------
 MAIN-AXIS = DA DIREITA PARA ESQUERDA
 CROSS-AXIS = DE CIMA PAR BAIXO DO LADO DIREITO
 
+-------------------------------------------------------------------------
 
 
 
 
 
-
------------------FLEX-DIRECTION COLUM-----------------
+-----------------FLEX-DIRECTION COLUM------------------------------------
 MAIN-AXIS = DE CIMA PARA BAIXO
 CROSS-AXIS = DA ESQUERDA PARA DIREITA NA PARTE DE CIMA
 
+-------------------------------------------------------------------------
 
 
-----------------FLEX-DIRECTION COLUM-REVERSE----------------
+
+----------------FLEX-DIRECTION COLUM-REVERSE-----------------------------
 MAIN-AXIS = DE BAIXO PARA CIMA
 CROSS-AXIS = DA ESQUERDA PARA DIREITA PARTE DE BAIXO
 
+-------------------------------------------------------------------------
 
 
 
 
+obs: O tamanho de um bloco vai depender do Tamanho do conteúdo
+
+-------------------------FLEX-WRAP---------------------------------------
+POR PRADRAO É norwrap; = nao quebrar os conteudos
+flex-wrap: wrap; segue a linha do eixo cross-axis 
+o ultimo bloco quebra na direçao do eixo
+
+exemplo: Se eu usar uma linha da esquerda para a direita O meu eixo cross-axis é de cima para baixo.
+Sendo assimo último bloco quebra para baixo usando o flex-wrap
+
+-------------------------------------------------------------------------
 
 
 
+------------------------FLEX-WRAP: WRAP-REVERSE;------------------------
+flex-wrap: wrap-reverse; segue a linha do eixo cross-axis 
+o ultimo bloco quebra na direçao do eixo
 
+exemplo: Se eu usar uma linha da esquerda para a direita O meu eixo cross-axis é de cima para baixo.
+mais se usar o flex-wrap: wrap-reverse; = O último bloco sobe ao invés de descer.
 
-
-
-
-
-
-
-
-
-
-
-
+-------------------------------------------------------------------------
 
 
 
