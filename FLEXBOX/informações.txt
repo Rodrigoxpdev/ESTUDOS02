@@ -1,7 +1,11 @@
 ---------------------FLEXBOX---------------------------------------------
 O CONTEINER É O PAI = flex-conteiner
-O PAI E QUEM LEVA O DISPLAY FLEX E NÃO OS FILHOS
+"O PAI E QUEM LEVA O DISPLAY FLEX" E NÃO OS FILHOS!
+
 OS ITEMS É OS FILHOS = flex-items 
+
+FLEX: AUTO; = "SÓ FUNCIONA NOS FILHOS" OU SEJA "NO CONTEUD0"
+
 -------------------------------------------------------------------------
 
 
@@ -65,16 +69,16 @@ exemplo: Se eu usar uma linha da esquerda para a direita O meu eixo cross-axis �
 mais se usar o flex-wrap: wrap-reverse; = O último bloco sobe ao invés de descer.
 
 -------------------------------------------------------------------------
+ 
 
 
 
 
-
-
-
-
-
-
+--------------------------------FLEX-FLOW--------------------------------
+.É A MISTURA DE FLEX-DIRECTION + FLEX-WRAP
+flex-flow: row wrap;
+row = linha padrao da esquerda para direita -->
+row-reverse = linha reversa da direita para esquerda <--
 
 
 
