@@ -14,7 +14,7 @@ flex-grow: 0 ;  POR PADRAO E 0 = NAO PODE CRESCER
 flex-shrink: 1; PODE ENCOLHER
 flex-grow: 1 ; PODE CRESCER
 --------------------------------------------------------
-flex-shrink: 0; NAO VAI ENCOLHER E CAUSA VAZAMENTO DOS ITEM PARA FOR DA CAIXA
+flex-grow: 0; NAO VAI CRESCER 
 flex-grow: 1 ; PODE CRESCER
 
 

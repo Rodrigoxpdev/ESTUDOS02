@@ -19,13 +19,24 @@ div.item{
     background-color: rgb(136, 136, 136);
     border: 1px solid rgb(0, 0, 0);
     text-align:center;
-    flex-basis: 300px;
-    flex-shrink: 0;
-    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 20px;
 }
 
-
-
+/*DIMINUIR OU NAO  1 SIM / 0 NAO*/
+/*CRESCER OU NAO 1 SIM 0 NAO*/
+#cx1{
+    flex-shrink:5;  
+    flex-grow:0; 
+}
+#cx2{
+    flex-shrink: 1; /**/
+    flex-grow: 3; /**/
+}
+#cx3{
+    flex-shrink: 1; /**/
+    flex-grow: 0; /**/
+}
 
 
 
