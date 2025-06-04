@@ -1,0 +1,40 @@
+-----------------------FLEX-FOW-----------------------
+flex-basis: 150; nos items
+flex-flow: row nowrap; no conteiner
+
+--------------PODE ENCOLHER OU AUMENTAR?--------------
+flex-shrink: 1; POR PADRAO E 1 = PODE ENCOLHER
+flex-shrink: 0; NAO PODE ENCOLHER
+--------------------------------------------------------
+
+
+flex-grow: 0 ;  POR PADRAO E 0 = NAO PODE CRESCER
+
+--------------------------------------------------------
+flex-shrink: 1; PODE ENCOLHER
+flex-grow: 1 ; PODE CRESCER
+--------------------------------------------------------
+flex-shrink: 0; NAO VAI ENCOLHER E CAUSA VAZAMENTO DOS ITEM PARA FOR DA CAIXA
+flex-grow: 1 ; PODE CRESCER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
