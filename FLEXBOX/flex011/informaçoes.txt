@@ -16,8 +16,37 @@ flex-grow: 1 ; PODE CRESCER
 --------------------------------------------------------
 flex-grow: 0; NAO VAI CRESCER 
 flex-grow: 1 ; PODE CRESCER
+--------------------------------------------------------
+PODE FAZER ABREVIAÇAO EX:
+A ORDEM PADRAO É:
+flex-grow: 0;    CRESCER
+flex-shrink: 1;  DIMINUIR
+basis: auto;     
+--------------------------------------------------------
+flex: 0 1 auto ;
 
+OPÇAO 2:
+flex: initial; e flex: 0 1 auto ; SÃO A MESMA COISA!
+--------------------------------------------------------
 
+OPÇAO 3:
+flex: 0 0 auto; NAO VAI SER FLEXIVEL
+flex: none; NAO VAI SER FLEXIVEL
+--------------------------------------------------------
+
+OPÇAO 4:
+flex: 1 1 auto; PODE CRESCER E DIMINUIR A VONTADE OS ITEMS
+flex: auto; PODE CRESCER E DIMINUIR A VONTADE OS ITEMS
+----------------------------------------------------------
+
+OPÇAO 5:
+flex: 1 ;  SÓ UM ELEMENTO, FICA O VALOR DE grow POIS OS VALORES DE PADROES DE
+flex-shrink flex-basis SÃO:
+
+flex-shrink: 1;   VALOR PADRAO: 1 =   "DIMINUIR"
+flex-basis: auto; VALOR PADRAO: auto  "AUTOMATICO"
+------------------------------------------------------------------------------
+ 
 
 
 

@@ -19,23 +19,28 @@ div.item{
     background-color: rgb(136, 136, 136);
     border: 1px solid rgb(0, 0, 0);
     text-align:center;
-    flex-basis: 200px;
     padding: 20px;
 }
 
 /*DIMINUIR OU NAO  1 SIM / 0 NAO*/
 /*CRESCER OU NAO 1 SIM 0 NAO*/
 #cx1{
+    /* flex-grow:0;
     flex-shrink:5;  
-    flex-grow:0; 
+    flex-basis: 200px;  */
+    flex:1 0 200px ;
 }
 #cx2{
-    flex-shrink: 1; /**/
-    flex-grow: 3; /**/
+    /* flex-grow: 3; 
+    flex-shrink: 1; 
+    flex-basis: 150px; */
+    flex: 1 1 150px;
 }
 #cx3{
-    flex-shrink: 1; /**/
-    flex-grow: 0; /**/
+    /* flex-grow: 0; 
+    flex-shrink: 1; 
+    flex-basis: auto; */
+    flex: 1 8 auto;
 }
 
 
