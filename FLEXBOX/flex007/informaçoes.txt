@@ -1,0 +1,44 @@
+--------------------------style="order: -2;"--------------------------
+ORGANIZANDO OS INTEMS POR ORDEM MESMO QUE ESTEJA COLOCADO NO HTML EM ORDEM DIFERENTE 
+/* ORGANIZANDO OS ITENS COM A TAG order: ; DENTRO VAI O VALOR SEJA ELE NEGATIVO - OU POSITIVO */
+
+--------------------------ALIGIN-SELF----------------------------------
+flex-start
+flex-end
+center
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+---------------------------------ITENS---------------------------------
+
+-------------------------------FLEX-BASIS------------------------------
+flex-basis: auto;  AUTOMATICO
+
+POR MAIS QUE O CONTEUDO SEJA CRESÇA ELE MANTEM OS ITEMS POSICIONADOS CORRETAMENTE SE ADAPTANDO AO CONTEIENER.
+
+-----------------------------------------------------------------------
+flex-basis: 200px;  EM PX
+NESSE CASO OS INTEMS TERAO TAMSNHOS FIXOS E NAO IER SE ADAPTAR AO CONTEINER E NEM  O CONTEUDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
