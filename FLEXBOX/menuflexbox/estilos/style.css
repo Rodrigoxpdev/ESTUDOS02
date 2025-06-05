@@ -35,16 +35,18 @@ header{
 
 /* TOPO H1 */
 header h1{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     flex: 0 0 200px;
+    text-shadow: 2px  2px 0px rgba(0, 0, 0, 0.367);
 }
 
 /* MENU DE NAVEGAÇÃO  */
 header nav{
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    text-shadow: 2px  2px 0px rgba(0, 0, 0, 0.367);
 }
 
 /* LINKS DENTRO DO MENU  */

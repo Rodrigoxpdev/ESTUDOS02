@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* VERÇÃO PARA CELULAR */
+header, header> nav{
+    flex-flow: column nowrap;
+}
+
+header > h1{
+    flex-basis: 50px;
+}
+
+header > nav{
+    width: 90vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
