@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* -----------------------CFG GERAL----------------------- */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ======================================================== */
+
+
+
+/* CORPO */
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: grey;
+}
+
+
+
+/* --------------------------TOPO-------------------------- */
+header{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+/* TOPO H1 */
+header h1{
+    border: 1px dashed black;
+    
+}
+
+/* MENU DE NAVEGAÇÃO  */
+header nav{
+    border: 1px dashed black;
+}
+
+
+
+/* ======================================================== */
+/* CONTEUDO PRINCIPAL */
+main{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
