@@ -7,10 +7,28 @@ div.conteiner{
     border: 3px solid blue;
     height: 250px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
     gap: 5px;
+    /* ==================================== */
+    /*grid-template-columns: auto auto auto; 2*/
+    /*grid-template-rows: 100px 100px 100px; 1*/
+    /* -------SIMPLIFICANDO--------- */
+    /* primeiro a linha depois a coluna */
+    grid-template: auto auto auto / auto auto auto ;
+    /* grid-template-columns: 1fr 1fr 1fr; */
 
+
+
+/* ============================= */
+    /* align-items: normal;
+    justify-items: normal; */
+    /* -------SIMPLIFICANDO--------- */
+    place-items: normal normal;
+/* ============================= */
+
+    /* align-content: normal;
+    justify-content: normal;   */
+    /* -------SIMPLIFICANDO--------- */
+    place-content: normal normal;
 }
 /* ========================================= */
 
@@ -25,10 +43,41 @@ div.item{
 /* ========================================= */
 
 
+/* ================================================== */
+div.conteiner2{
+    display: grid;
+    width: 1500px;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+
+}
+
+div.item2{
+    border: 3px solid rgb(255, 0, 0);
+}
 
 
 
+/* ==================================================== */
+div.conteiner3{
+    display: grid;
+    width: 1500px;
+    gap: 5px;
+    
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    grid-template-columns: 100px 20% repeat(2, 1fr) ;
+    
 
+}
+
+div.item3{
+    border: 3px solid rgb(255, 0, 0);
+    padding: 20px;
+}
 
 
 

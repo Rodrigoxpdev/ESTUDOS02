@@ -39,6 +39,111 @@ CENTER, END, SPACE-BETWEEN, SPACE-EVENLY, SPACE-AROUND,
 ======================================================================
 
 
+============================GRID SIMPLIFICADO-========================
+ A ORDEM É:
+align-items: normal;       
+justify-items: normal;       
+=======================================================================
+
+
+=======================================================================
+align-items: normal;   ==>    
+justify-items: normal; ==>  
+
+=======================================================================
+align-content: normal;    ==>
+justify-content: normal;  ==>  place-content: normal normal;
+=======================================================================
+
+=======================================================================
+grid-template-columns: auto auto auto; 
+grid-template-rows: 100px 100px 100px; 
+
+ -------SIMPLIFICANDO--------- 
+ primeiro a linha, depois a coluna
+
+                  linha             coluna
+grid-template: auto auto auto / auto auto auto ;
+=========================================================================
+
+==========================================================================
+PODE SER SUBSTITUIDO PELO REPEAT E A QUANTIDADE E O VALOR DESEJADO:
+EXMPLO:
+grid-template-columns: repeat(3, auto); 
+grid-template-rows: repeat(3, 100px);
+
+=============SIMPLIFICADO=============
+ORDEM LINHA / COLUNA
+
+                    LINHA           COLUNA
+grid-template: repeat(3, 100px / repeat(3, auto))
+
+===========================================================================
+USANDO UNIDADE FRACIONAL
+
+EXMPLO:
+=  CONTEINER DE 1500PX
+=  grid-template-columns: 1fr 1fr 1fr;  =  1+1+1= 3  1500/3 = 3x500
+
+FAZENDO DECLARAÕES PARA QUE UM ITEM TENHA  O DOBRO DO VALOR USANDO O 'FR'
+DIVIDINDO EM 4 FRAÇÕES: 1fr 2fr 1fr = 1+2+1= 4       1500/4 = 4 AREAS DE 375px
+=  grid-template-columns: 1fr 2fr 1fr;  =  1+1+1= 3  1500/3 = 3 AREAS DE x 500px
+
+================================================================================
+
+=================================FRAÇÕES EM GRID=================================
+
+EM UM CONTEINER DE 1500PX
+1 ITEM TEM O VALOR DE 100PX
+2 ITEM TEM O VALOR DE 20%
+3 ITEM TEM O VALOR DE 1FR
+4 ITEM TEM O VALOR DE 1FR
+
+CONTEINER: 1500PX
+
+1 ITEM TERA 100PX
+2 ITEM 20% DE 1500PX
+3 ITEM 1FR 
+4 ITEM 1FR
+
+==================================
+CALCULO:
+1500PX - 20% = 1200PX
+1200PX - 100PX
+= 1100
+1100 / 2 = 550PX
+==================================
+
+RESULTADO:
+1 ITEM = 100PX
+2 ITEM = 300PX 
+
+DE 1100PX RESTANTE AS FRAÇÕES TERA:
+3 ITEM "FR" = 550PX
+4 ITEM "FR" = 550PX
+================================================
+SIMPLIFICADO:
+                                        2x 1fr
+grid-template-columns: 100px 20% repeat(2, 1fr)
+================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
