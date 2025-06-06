@@ -36,9 +36,10 @@ VALOR PADRAO: START
 OUTROS VALORES:
 CENTER, END, SPACE-BETWEEN, SPACE-EVENLY, SPACE-AROUND,
 
+=====================================================================
+
+
 ======================================================================
-
-
 ============================GRID SIMPLIFICADO-========================
  A ORDEM É:
 align-items: normal;       
@@ -88,9 +89,11 @@ EXMPLO:
 FAZENDO DECLARAÕES PARA QUE UM ITEM TENHA  O DOBRO DO VALOR USANDO O 'FR'
 DIVIDINDO EM 4 FRAÇÕES: 1fr 2fr 1fr = 1+2+1= 4       1500/4 = 4 AREAS DE 375px
 =  grid-template-columns: 1fr 2fr 1fr;  =  1+1+1= 3  1500/3 = 3 AREAS DE x 500px
+=================================================================================
 
-================================================================================
 
+
+=================================================================================
 =================================FRAÇÕES EM GRID=================================
 
 EM UM CONTEINER DE 1500PX
@@ -129,7 +132,7 @@ grid-template-columns: 100px 20% repeat(2, 1fr)
 
 
 
-
+===========================================================
 ===================SIMPLIFICANDO===========================
 
 COLOCAR ITEM COM O MESMO TAMANHO DE FORMA AUTOMATICA
@@ -142,15 +145,21 @@ grid-auto-columns: 120px;
 
 grid-auto-flow: column; ou rows 
  PARA ORDENAR COMO SERÁ COLOCADO OS ITEMS COLUNA OU LINHAS
+
+ USAR REPEAT PARA SIMPLIFICAR
 ============================================================
  
 
+============================================================
+===========PROPRIEDADES PARA ITEMS NO GRID LAYOUT===========
+grid-row-start
+grid-row-end
+
+grid-column-start
+grid-column-end
 
 
-
-
-
-
+==============================================================
 
 
 
