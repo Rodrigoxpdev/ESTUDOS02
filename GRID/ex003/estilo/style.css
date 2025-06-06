@@ -48,6 +48,77 @@ div.item{
 
 
 
+/* ===============GRID LAYOUT=============== */
+div.conteiner2{
+    border: 3px solid brown;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+    background-color: rgb(0, 8, 255);
+}
+
+
+
+
+div.caixa1{
+    /* border: 3px solid rgb(9, 255, 0); */
+    background-color: yellow;
+    
+    /* LINHAS */
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    /* COLUNAS */
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+
+
+
+/* ===========CAIXA 2========= */
+div.caixa2{
+    /* border: 3px solid blue; */
+    background-color: yellow;
+    
+    /* LINHAS */
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+    /* COLUNAS */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    
+}
+
+div.caixa3{
+    /* border: 3px solid blue; */
+    background-color: yellow;
+    
+    /* LINHAS */
+    grid-row-start: 2;
+    grid-row-end:4 ;
+    
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+
+
+
 
 
 

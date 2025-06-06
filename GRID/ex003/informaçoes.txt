@@ -152,8 +152,8 @@ grid-auto-flow: column; ou rows
 
 ============================================================
 ===========PROPRIEDADES PARA ITEMS NO GRID LAYOUT===========
-grid-row-start
-grid-row-end
+grid-row-start: 1; = LINHA DE INICIO
+grid-row-end = LINHA FINAL
 
 grid-column-start
 grid-column-end
